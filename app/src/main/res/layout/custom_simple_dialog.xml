@@ -1,0 +1,71 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/dialog_background">
+
+    <TextView
+        android:id="@+id/dialog_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="8dp"/>
+
+    <TextView
+        android:id="@+id/dialog_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:padding="8dp" />
+
+<!--    <ListView-->
+<!--        android:id="@+id/dialog_list"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="200dp"-->
+<!--        android:layout_marginBottom="16dp"-->
+<!--        android:divider="@android:color/darker_gray"-->
+<!--        android:dividerHeight="1dp"-->
+<!--        android:maxHeight="300dp" />-->
+
+    <android.widget.Button
+                android:id="@+id/dialog_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/white"
+                android:background="@drawable/rounded_button"
+                android:backgroundTint="#22AB14"
+                tools:ignore="DuplicateSpeakableTextCheck" />
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:gravity="center"-->
+<!--        android:orientation="horizontal">-->
+
+<!--        <android.widget.Button-->
+<!--            android:id="@+id/dialog_buttonNo"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:background="@drawable/rounded_button"-->
+<!--            android:backgroundTint="#FF0000"-->
+<!--            tools:ignore="DuplicateSpeakableTextCheck" />-->
+
+<!--        <android.widget.Button-->
+<!--            android:id="@+id/dialog_buttonYes"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="16dp"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:background="@drawable/rounded_button"-->
+<!--            android:backgroundTint="#22AB14"-->
+<!--            tools:ignore="DuplicateSpeakableTextCheck" />-->
+
+<!--    </LinearLayout>-->
+</LinearLayout>
