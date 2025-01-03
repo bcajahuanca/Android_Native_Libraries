@@ -36,6 +36,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
+        android:layout_marginTop="16dp"
         android:orientation="horizontal">
 
         <android.widget.Button
@@ -43,20 +44,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="@color/white"
-            android:background="@drawable/rounded_button"
-            android:backgroundTint="#FF0000" />
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/rounded_button_negative" />
 
         <android.widget.Button
             android:id="@+id/dialog_buttonYes"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="@color/white"
-            android:layout_marginStart="16dp"
-            android:background="@drawable/rounded_button"
-            android:text="asdasdasd"
-            android:backgroundTint="#22AB14" />
-
-
-
+            android:background="@drawable/rounded_button_positive" />
     </LinearLayout>
 </LinearLayout>
